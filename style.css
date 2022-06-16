@@ -83,7 +83,6 @@ body {
 #navbar li a:hover,
 #navbar li a.active {
 	color: #088178;
-
 }
 
 #navbar li a.active::after,
@@ -98,6 +97,13 @@ body {
 }
 
 /*Home Page */
-
+#hero {
+	height: 90vh;
+	width: 100%;
+	background-image: url("img/bg-hero1.jpg");
+	background-size: cover;
+	background-position: top 25% right 0%;
+	padding: 0 80px;
+}
 
 /*Shop Page */
