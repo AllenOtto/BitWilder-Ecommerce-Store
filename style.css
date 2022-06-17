@@ -250,7 +250,7 @@ body {
 
 #product1 .pro .des i {
 	font-size: 12px;
-	color: rgb(243, 181, 25)
+	color: rgb(243, 181, 25);
 }
 
 #product1 .pro .des h4 {
@@ -261,15 +261,21 @@ body {
 }
 
 #product1 .pro .fa-shopping-cart {
-	position: absolute;
-	bottom: 20px;
-	right: 10px;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
 	border-radius: 50px;
 	background-color: #e8f6ea;
 	color: #088178;
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+}
+
+#product1 .pro-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 /* Shop Page */
