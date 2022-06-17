@@ -113,7 +113,6 @@ body {
 	height: 90vh;
 	width: 100%;
 	background-image: url("img/bg-hero2.jpg");
-	/* background-blend-mode: lighten; */
 	background-color: #088178;
 	background-size: cover;
 	background-position: top 5% right 0%;
@@ -221,7 +220,7 @@ body {
 	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
 	margin: 15px 0;
 	transition: 0.2s ease;
-	/* position: relative; */
+	position: relative;
 }
 
 #product1 .pro:hover {
@@ -261,15 +260,17 @@ body {
 	color: #088178;
 }
 
-/* #product1 .pro .fa-cart-plus {
+#product1 .pro .fa-shopping-cart {
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
 	border-radius: 50px;
 	background-color: #e8f6ea;
-	font-weight: 500;
 	color: #088178;
-} */
+}
 
 /* Shop Page */
 
