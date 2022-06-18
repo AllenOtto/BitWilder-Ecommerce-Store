@@ -278,6 +278,19 @@ body {
 	flex-wrap: wrap;
 }
 
+#banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-image: url(img/banner-img.jpg);
+	width: 100%;
+	height: 40vh;
+	background-size: cover;
+	background-position: center;
+}
+
 /* Shop Page */
 
 
